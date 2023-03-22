@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+    background-image: url(https://cdn.pixabay.com/photo/2020/01/26/18/52/porsche-4795520_960_720.jpg);
+    display: flex; flex-direction: column;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    height: 94vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: rgb(10, 31, 66);
+}
+
+h1 {
+    color: rgb(116, 161, 240);
+    font-size:xx-large;
+    height:70px;
+    font-size: 40px;
+    font-family: "Orbitron", sans-serif;
+}
+
+h1:hover {
+    background-color: rgba(253, 253, 253, 0.945);
+}
+
+#calculater {
+    max-width: 360px;
+    background-color: rgba(19, 223, 246, 0.783);
+    border-radius: 10px;
+    padding: 20px;
+    background-image: url(https://cdn.pixabay.com/photo/2014/05/21/15/38/coat-of-arms-349889_960_720.jpg);
+    background-position:center;
+}
+
+#display {
+    width: 100%;
+    height: 56px;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 20px;
+    color: rgb(217, 240, 8);
+    background-color: rgba(21, 89, 96, 0.794);
+    border: none;
+    box-sizing: border-box;
+}
+
+.operator {
+    color: rgb(245, 210, 9);
+}
+
+#ac {
+    color: rgba(251, 6, 6, 0.934);
+}
+
+.equal {
+    width: calc(50% - 10px);
+}
+
+button {
+    width: calc(25% - 10px);
+    height: 50px;
+    font-size: 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    float: left;
+    background-color: rgb(55, 97, 223);
+    color: rgba(24, 20, 48, 0.79);
+    box-shadow: 1px 1px 20px -3px rgb(rgb(142, 73, 73), rgb(93, 29, 83), blue);
+}
+
+button:hover {
+    cursor:pointer;
+    background-color: aliceblue;
+}
+
+button:active {
+    transform: scale(1.2);
+    box-shadow: 0 2px 4px 1px rgba(33, 31, 50, 0.845);
+}
+
+footer{
+    display:block;
+    position: fixed;
+    bottom: 0vh;
+    left: 0%;
+    width: 100%;
+    background-color:#a3c9a7;
+    text-align: center;
+}
+
+footer:hover {
+    background-color: rgb(189, 91, 97);
+}
+
+
